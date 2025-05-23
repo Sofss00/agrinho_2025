@@ -1,38 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho 2025</title>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Da Terra ao Prato</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  </head>
 
+  <body>
     <section id="capa_titulo">
-        <div id="texto_capa">
-          <h1><span class="quebra-texto">Da Terra</span> ao Prato</h1>
-          <p>A jornada dos sabores</p>
-        </div>
+      <div id="texto_capa">
+        <h1>
+          Da Terra <span class="quebra-texto">ao Prato</span>
+        </h1>
+        <p>Uma jornada de sabores que conecta o campo e a cidade</p>
+      </div>
     </section>
 
     <section id="capa_imagens_e_botao">
-        <div id="imagens_direita">
-            <img src="img/homem_no_campo.png" alt="Um fazendeiro feliz segurando uma verdura em frente à uma plantação" id="fazendeiro_img">
-            <img src="img/cestadelegumes.png" alt="Uma cesta com legumes frescos em cima de um balcão de cozinha" id="cesta_img">
-            <img src="img/caminhaodelegumes.png" alt="Um caminhão transportando legumes por uma estrada" id="caminhao_img">
+      <div id="imagens_esquerda">
+        <picture>
+          <source media="(min-width: 1025px)" srcset="img/teste_site_agrinho.png">
+          <img src="img/pratodecomida.png" alt="Um prato de arroz, feijão, salada e legumes" id="prato_img">
+        </picture>
 
-            <a href="principal.html">
-                <button id="botao_conheca"> Conheça essa jornada!</button>
-            </a>
+        <picture>
+          <source media="(min-width: 1025px)" srcset="img/feiradelegumes_desktop.png">
+          <img src="img/feiradelegumes.png" alt="Uma feira de legumes frescos ao ar livre" id="feira_img">
+        </picture>
 
-        </div>
+        <picture>
+          <source media="(min-width: 1025px)" srcset="img/familiacozinhando_desktop.png">
+          <img src="img/familiacozinhando.png" alt="Uma família feliz cozinhando junta na cozinha" id="familia_img">
+        </picture>
+      </div>
 
-        <div id="imagens_esquerda">
-            <img src="img/pratodecomida.png" alt="Um prato de arroz, feijão e salada em cima de uma mesa posta com uma toalha xadrez" id="prato_img">
-            <img src="img/feiradelegumes.png" alt="Uma feira de legumes, com vendedores de dierentes tipos de verduras e legumes, e com cidadãos fazendo compras" id="feira_img" >
-            <img src="img/familiacozinhando.png" alt="Uma família feliz cozinhando, a mãe prepara a comida no fogão enquanto sua filha observa e o pai corta os ingredientes junto de seu filho" id="familia_img">
-        </div>
+      <div id="imagens_direita">
+        <picture>
+          <source media="(min-width: 1025px)" srcset="img/homem_no_campo_desktop.png">
+          <img src="img/homem_no_campo.png" alt="Um fazendeiro feliz segurando uma verdura em frente à plantação" id="fazendeiro_img">
+        </picture>
+
+        <picture>
+          <source media="(min-width: 1025px)" srcset="img/cestadelegumes_desktop.png">
+          <img src="img/cestadelegumes.png" alt="Uma cesta cheia de legumes coloridos" id="cesta_img">
+        </picture>
+
+        <picture>
+          <source media="(min-width: 1025px)" srcset="img/caminhaodelegumes_desktop.png">
+          <img src="img/caminhaodelegumes.png" alt="Um caminhão transportando alimentos para a cidade" id="caminhao_img">
+        </picture>
+
+        <button id="botao_conheca">Conheça o caminho</button>
+      </div>
     </section>
-    
-</body>
+  </body>
 </html>
