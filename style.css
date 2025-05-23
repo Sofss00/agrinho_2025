@@ -217,12 +217,12 @@ display: flex;
 }
 
 #capa_titulo {
-  width: 40%;
+  width: 45%;
   height: 100dvh;
 }
 
 #capa_imagens_e_botao{
-  width: 60%;
+  width: 55%;
   height: 100dvh;
 }
 
@@ -250,7 +250,7 @@ display: flex;
 
 #texto_capa p{
   font-family: "Nunito", sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 500;
   color: #fff7e4;
   text-shadow: 3px 3px 4px #000000;
