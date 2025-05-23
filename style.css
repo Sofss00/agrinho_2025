@@ -216,8 +216,18 @@ display: flex;
     display: flex;
 }
 
+#capa_titulo {
+  width: 50%;
+  height: 100dvh;
+}
+
+#capa_imagens_e_botao{
+  width: 50%;
+  height: 100dvh;
+}
+
   #texto_capa{
-    width: 50%;
+    width: 100%;
     height: 100dvh;
     display: flex;
     flex-direction: column;
