@@ -239,7 +239,7 @@ display: flex;
 
 #texto_capa h1{
   font-family: "Nunito", sans-serif;
-  font-size: 60px;
+  font-size: 70px;
   color: #fff7e4;
   text-shadow: 4px 3px 4px #031a01;
 }
@@ -250,7 +250,7 @@ display: flex;
 
 #texto_capa p{
   font-family: "Nunito", sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: 500;
   color: #fff7e4;
   text-shadow: 3px 3px 4px #000000;
