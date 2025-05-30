@@ -1,68 +1,54 @@
-#linha_do_tempo {
+#linha_tempo {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 40px 20px;
-  background-color: #fff7e4;
-  font-family: "Nunito", sans-serif;
+  gap: 15px;
+  padding: 20px 10px;
+  overflow-x: auto;
+  background-color: #f1f6ec;
+  scroll-behavior: smooth;
 }
 
 .etapa {
-  position: relative;
-  width: 100%;
-  max-width: 500px;
-  padding: 20px 30px;
-  margin: 20px 0;
-  border-left: 4px solid #325022;
-  background-color: #f1f6ec;
-  border-radius: 10px;
-  box-shadow: 2px 2px 6px #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
 }
 
-.icone {
-  position: absolute;
-  top: 20px;
-  left: -28px;
-  background-color: #325022;
-  color: #fff7e4;
-  font-size: 22px;
-  padding: 8px;
+.etapa img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
   border-radius: 50%;
-  box-shadow: 1px 1px 3px #444;
+  border: 3px solid #325022;
+  transition: transform 0.3s;
 }
 
-.etapa h2 {
-  margin-left: 10px;
-  color: #163505;
-  font-size: 22px;
+.etapa span {
+  margin-top: 5px;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  color: #325022;
 }
 
-.etapa p {
-  margin-top: 8px;
-  margin-left: 10px;
-  font-size: 16px;
-  color: #333;
+.etapa img:hover {
+  transform: scale(1.1);
 }
 
-/* Versão Desktop */
-@media (min-width: 1024px) {
-  #linha_do_tempo {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+/* Desktop */
+@media (min-width: 768px) {
+  #linha_tempo {
     gap: 30px;
-    padding: 60px;
+    padding: 30px;
   }
 
-  .etapa {
-    border-left: none;
-    border-top: 4px solid #325022;
-    width: 280px;
-    min-height: 220px;
+  .etapa img {
+    width: 80px;
+    height: 80px;
   }
 
-  .icone {
-    left: 20px;
-    top: -28px;
+  .etapa span {
+    font-size: 16px;
   }
 }
