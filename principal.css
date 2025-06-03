@@ -22,6 +22,7 @@ header{
     display: block;
     text-align: center;
     justify-content: center;
+    align-items: center;
 }
 
 header h1{
