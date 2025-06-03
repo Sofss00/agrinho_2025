@@ -16,5 +16,16 @@ header{
 }
 
 header h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
     color: #fff7e4;
+    text-shadow: 4px 3px 4px #031a01;
+}
+
+header p {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff7e4;
+    text-shadow: 3px 3px 4px #000000;
 }
