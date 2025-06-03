@@ -29,3 +29,9 @@ header p {
     color: #fff7e4;
     text-shadow: 3px 3px 4px #000000;
 }
+
+.links{
+    font-size: 15px;
+    font-weight: 200;
+    text-decoration: underline;
+}
