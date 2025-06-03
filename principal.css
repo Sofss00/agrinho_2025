@@ -34,7 +34,7 @@ header{
     display: flex;
     justify-content: left;
     align-items: end;
-    padding: 10;
+    padding: 10px;
 }
 
 header h1{
@@ -54,6 +54,6 @@ header p {
 
 .links{
     font-size: 15px;
-    font-weight: 200;
+    font-weight: 500;
     text-decoration: underline;
 }
