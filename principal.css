@@ -30,7 +30,7 @@ header{
     width: 50%;
     height: 100%;
     display: flex;
-    justify-content: left;
+    justify-content: right;
     align-items: end;
     padding: 10px;
 }
