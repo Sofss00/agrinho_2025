@@ -60,7 +60,7 @@ header p {
 }
 
 @media (min-width: 769px){
-    
+
 #titulo{
     width: 50%;
     height: 100%;
@@ -81,21 +81,21 @@ header p {
 
 header h1{
     font-family: "Nunito", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: #fff7e4;
     text-shadow: 4px 3px 4px #031a01;
 }
 
 header p {
     font-family: "Nunito", sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
     color: #fff7e4;
     text-shadow: 3px 3px 4px #000000;
 }
 
 .links{
-    font-size: 10px;
+    font-size: 17px;
     font-weight: 500;
     text-decoration: underline;
     margin-left: 10px;
