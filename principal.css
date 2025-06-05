@@ -52,47 +52,16 @@ header p {
 }
 
 #linha_tempo {
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-    position: relative;
+    gap: 30px;
 }
 
 #linha_tempo::before {
-    content: "";
-    position: absolute;
-    left: 30px;
     top: 0;
-    bottom: 0;
-    width: 3px;
-    background-color: #325022;
-}
-
-.etapa {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    margin-bottom: 40px;
-    gap: 20px;
-    position: relative;
-    padding-left: 40px;
-}
-
-.etapa img {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: 3px solid #325022;
-    background-color: #fff;
-    object-fit: cover;
-}
-
-.etapa .descricao {
-    font-family: "Nunito", sans-serif;
-    color: #325022;
-    max-width: 80%;
-    font-size: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 90%;
 }
 
 @media (min-width: 769px){
@@ -150,11 +119,11 @@ header p {
 #linha_tempo::before {
   content: "";
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 5%;
   right: 5%;
-  height: 3px;
-  background-color: #325022;
+  height: 4px;
+  background-color: black;
   z-index: 0;
 }
 
@@ -173,7 +142,7 @@ header p {
   border-radius: 50%;
   border: 3px solid #325022;
   object-fit: cover;
-  background-color: #fff; 
+  background-color: #fff;
 }
 
 .etapa span {
@@ -182,7 +151,6 @@ header p {
   font-size: 16px;
   color: #163505;
 }
-
 
 }
 
@@ -240,11 +208,11 @@ header p {
 #linha_tempo::before {
   content: "";
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 5%;
   right: 5%;
-  height: 3px;
-  background-color: #325022;
+  height: 4px;
+  background-color: black;
   z-index: 0;
 }
 
@@ -263,7 +231,7 @@ header p {
   border-radius: 50%;
   border: 3px solid #325022;
   object-fit: cover;
-  background-color: #fff; 
+  background-color: #fff;
 }
 
 .etapa span {
@@ -272,7 +240,6 @@ header p {
   font-size: 16px;
   color: #163505;
 }
-
 
 }
 
