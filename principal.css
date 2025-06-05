@@ -56,43 +56,44 @@ header p {
     flex-direction: column;
     align-items: flex-start;
     padding: 20px;
-  }
+    position: relative;
+}
 
-  #linha_tempo::before {
-    display: flex;
+#linha_tempo::before {
+    content: "";
+    position: absolute;
+    left: 30px;
     top: 0;
-    left: 20px;
     bottom: 0;
     width: 3px;
-    height: 100%;
-  }
+    background-color: #325022;
+}
 
-  .etapa {
+.etapa {
+    display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 40px;
     gap: 20px;
-  }
+    position: relative;
+    padding-left: 40px;
+}
 
-  .etapa a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-  }
-
-  .descricao {
-    margin-top: 10px;
-    margin-left: 10px;
-    font-family: "Nunito", sans-serif;
-    color: #325022;
-    max-width: 90%;
-  }
-
-  .etapa img {
+.etapa img {
     width: 60px;
     height: 60px;
-  }
+    border-radius: 50%;
+    border: 3px solid #325022;
+    background-color: #fff;
+    object-fit: cover;
+}
+
+.etapa .descricao {
+    font-family: "Nunito", sans-serif;
+    color: #325022;
+    max-width: 80%;
+    font-size: 16px;
+}
 
 @media (min-width: 769px){
 
