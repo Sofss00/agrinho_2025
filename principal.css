@@ -190,7 +190,7 @@ header p {
 }
 }
 
-/* Container da linha do tempo */
+
 #linha_tempo {
   display: flex;
   justify-content: space-around;
@@ -200,11 +200,10 @@ header p {
   margin-top: 50px;
 }
 
-/* Linha preta horizontal atrás das imagens */
 #linha_tempo::before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 5%;
   right: 5%;
   height: 4px;
@@ -212,7 +211,6 @@ header p {
   z-index: 0;
 }
 
-/* Cada etapa da linha do tempo */
 .etapa {
   display: flex;
   flex-direction: column;
@@ -222,17 +220,15 @@ header p {
   z-index: 1;
 }
 
-/* Imagens redondas */
 .etapa img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  border: 3px solid #325022; /* borda opcional */
+  border: 3px solid #325022;
   object-fit: cover;
-  background-color: #fff; /* fundo branco para destaque */
+  background-color: #fff; 
 }
 
-/* Texto abaixo das imagens */
 .etapa span {
   margin-top: 10px;
   font-family: "Nunito", sans-serif;
