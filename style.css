@@ -277,32 +277,32 @@ display: flex;
     border-radius: 20px;
   }
   
-  #fazendeiro_img {
+  #fazendeiro_telas_grandes {
     width: 150px;
     height: 100px;
   }
   
-  #cesta_img {
+  #cesta_legumes_telas_grandes {
     width: 230px;
     height: 180px;
   }
   
-  #caminhao_img {
+  #caminhao_telas_grandes {
     width: 230px;
     height: 280px;
   }
   
-  #prato_img {
+  #feira_telas_grandes {
     width: 230px;
     height: 180px;
   }
   
-  #feira_img {
+  #prato_de_comida_telas_grandes {
     width: 230px;
     height: 180px;
   }
   
-  #familia_img {
+  #familia_cozinhando_telas_grandes {
     width: 230px;
     height: 180px;
   }
