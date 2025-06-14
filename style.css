@@ -212,21 +212,24 @@ display: flex;
 /* Ajustes para desktops */
 @media (min-width: 1025px) {
 
-  body{
+@media (min-width: 1025px) {
+  body {
     display: flex;
-}
+  }
 
-#capa_titulo {
-  width: 45%;
-  height: 100dvh;
-}
+  #capa_titulo {
+    width: 45%;
+    height: 100dvh;
+  }
 
-#capa_imagens_e_botao{
-  width: 55%;
-  height: 100dvh;
-}
+  #capa_imagens_e_botao {
+    width: 55%;
+    height: 100dvh;
+    display: flex;
+    background-color: aquamarine;
+  }
 
-  #texto_capa{
+  #texto_capa {
     width: 100%;
     height: 100dvh;
     display: flex;
@@ -234,37 +237,23 @@ display: flex;
     align-items: center;
     justify-content: center;
     background-color: #325022;
-    margin-bottom: 0px;
-}
-
-#texto_capa h1{
-  font-family: "Nunito", sans-serif;
-  font-size: 70px;
-  color: #fff7e4;
-  text-shadow: 4px 3px 4px #031a01;
-}
-
-.quebra-texto {
-  display: block;
-}
-
-#texto_capa p{
-  font-family: "Nunito", sans-serif;
-  font-size: 40px;
-  font-weight: 500;
-  color: #fff7e4;
-  text-shadow: 3px 3px 4px #000000;
-}
-
-#capa_imagens_e_botao{
-  width: 100%;
-  height: 100dvh;
-  display: flex;
-  background-color: aquamarine;
   }
 
-  #imagens_direita, #imagens_esquerda {
-    width: 60%;
+  #texto_capa h1 {
+    font-size: 70px;
+  }
+
+  #texto_capa p {
+    font-size: 40px;
+  }
+
+  .quebra-texto {
+    display: block;
+  }
+
+  #imagens_direita,
+  #imagens_esquerda {
+    width: 50%;
     height: 100%;
     background-color: #325022;
     display: flex;
@@ -272,55 +261,45 @@ display: flex;
     align-items: center;
     justify-content: space-evenly;
   }
-  
-  #imagens_direita img, #imagens_esquerda img {
-    border-radius: 20px;
-  }
-  
+
+  /* AQUI os tamanhos reais das imagens */
   #fazendeiro_img {
-  width: 250px;
-  height: 300px;
-}
-
-#cesta_img {
-  width: 250px;
-  height: 250px;
-}
-
-#caminhao_img {
-  width: 240px;
-  height: 290px;
-}
-
-#prato_img {
-  width: 270px;
-  height: 270px;
-}
-
-#feira_img {
-  width: 270px;
-  height: 300px;
-}
-
-#familia_img {
-  width: 270px;
-  height: 260px;
-}
-  
-  #botao_conheca {
-    width: 155px;
-    height: 55px;
-    background-color: #163505;
-    border-radius: 30px;
-    font-size: 18px;
-    font-family: "Nunito", sans-serif;
-    font-weight: 500;
-    color: #fff7e4;
-    text-align: center;
-    line-height: 15px;
-    border: none;
-    margin-top: 0px;
+    width: 250px;
+    height: 300px;
   }
+
+  #cesta_img {
+    width: 250px;
+    height: 250px;
+  }
+
+  #caminhao_img {
+    width: 240px;
+    height: 290px;
+  }
+
+  #prato_img {
+    width: 270px;
+    height: 270px;
+  }
+
+  #feira_img {
+    width: 270px;
+    height: 300px;
+  }
+
+  #familia_img {
+    width: 270px;
+    height: 260px;
+  }
+
+  #botao_conheca {
+    width: 270px;
+    height: 85px;
+    font-size: 24px;
+    border-radius: 35px;
+  }
+}
 
 }
 
