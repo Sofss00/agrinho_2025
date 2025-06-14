@@ -65,18 +65,35 @@ background-color: aquamarine;
   border-radius: 20px;
 }
 
-#fazendeiro_img,
-#cesta_img,
-#caminhao_img,
-#prato_img,
-#feira_img,
-#familia_img {
-  width: 90%;
-  max-width: 250px;
-  height: auto;
-  border-radius: 20px;
+#fazendeiro_img {
+  width: 160px;
+  height: 200px;
 }
 
+#cesta_img {
+  width: 160px;
+  height: 160px;
+}
+
+#caminhao_img {
+  width: 160px;
+  height: 200px;
+}
+
+#prato_img {
+  width: 180px;
+  height: 180px;
+}
+
+#feira_img {
+  width: 180px;
+  height: 210px;
+}
+
+#familia_img {
+  width: 170px;
+  height: 180px;
+}
 
 #botao_conheca {
   width: 155px;
