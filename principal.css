@@ -275,7 +275,7 @@ header p {
     }
 
     #inicio {
-        width: 85%;
+        width: 90%;
         height: 400px;
         margin: 25px 0 20px 5px;
     }
@@ -291,7 +291,7 @@ header p {
     }
 
     #plantio, #colheita, #transporte, #feira, #prato {
-    width: 85%;
+    width: 90%;
     text-align: justify;
     margin: 25px 0 20px 0;
 }
@@ -333,7 +333,7 @@ header p {
     }
 
     #inicio {
-        width: 85%;
+        width: 90%;
         height: 400px;
         margin: 25px 0 20px 5px;
     }
@@ -349,7 +349,7 @@ header p {
     }
 
         #plantio, #colheita, #transporte, #feira, #prato {
-    width: 85%;
+    width: 90%;
     text-align: justify;
     margin: 25px 0 20px 0;
 }
