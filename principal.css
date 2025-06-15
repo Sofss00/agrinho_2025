@@ -125,8 +125,14 @@ header p {
   }
 
   #inicio h1, #inicio h3, #inicio p {
-    margin: 10px, 
+    margin: 10px, 5px, 10px, 10px ;
   }
+
+    #inicio h1, #inicio h3 {
+        color: #163505;
+        font-family: "Nunito", sans-serif;
+    }
+  
 
 @media (min-width: 769px){
 
