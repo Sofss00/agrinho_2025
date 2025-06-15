@@ -117,9 +117,17 @@ header p {
     text-decoration: underline #325022;
 }
 
+#etapas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* INÍCIO */
 #inicio {
-    width: 100%;
+    width: 95%;
     text-align: justify;
     margin: 25px 0 20px 0;
 }
@@ -149,7 +157,7 @@ header p {
 }
 
 #plantio, #colheita, #transporte, #feira, #prato {
-    width: 100%;
+    width: 95%;
     text-align: justify;
     margin: 25px 0 20px 0;
 }
@@ -267,7 +275,7 @@ header p {
     }
 
     #inicio {
-        width: 80%;
+        width: 85%;
         height: 400px;
         margin: 25px 0 20px 5px;
     }
@@ -283,7 +291,7 @@ header p {
     }
 
     #plantio, #colheita, #transporte, #feira, #prato {
-    width: 80%;
+    width: 85%;
     text-align: justify;
     margin: 25px 0 20px 0;
 }
@@ -325,7 +333,7 @@ header p {
     }
 
     #inicio {
-        width: 80%;
+        width: 85%;
         height: 400px;
         margin: 25px 0 20px 5px;
     }
@@ -341,7 +349,7 @@ header p {
     }
 
         #plantio, #colheita, #transporte, #feira, #prato {
-    width: 80%;
+    width: 85%;
     text-align: justify;
     margin: 25px 0 20px 0;
 }
