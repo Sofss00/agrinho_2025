@@ -162,6 +162,10 @@ header p {
 }
 
 #plantio, #colheita, #transporte, #feira, #prato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 95%;
     text-align: justify;
     margin: 25px 0 20px 0;
