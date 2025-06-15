@@ -360,7 +360,7 @@ header p {
 
 #plantio h1, #colheita h1, #transporte h1, #feira h1, #prato h1{
     font-size: 30px;
-    font-weight: 800;
+    font-weight: 900;
     margin-top: 15px;
     color: #163505;
 }
@@ -441,7 +441,7 @@ header p {
 
 .img_etapa{
     width: 90%;
-    max-width: 900px;
+    max-width: 1000px;
     height: auto;
     border-radius: 25px;
 }
