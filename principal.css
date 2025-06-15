@@ -192,30 +192,30 @@ header p {
     margin-right: 15px;
 }
 
-#inicio {
+.textos {
     width: 100%;
     height: 500px;
     text-align: left;
     margin: 25px 0px 20px 0px;
   }
 
-  #inicio h1, #inicio h3, #inicio p {
+  .textos h1, #inicio h3, .textos p {
     margin: 10px 5px 10px 15px ;
     font-size: 20px;
   }
 
-    #inicio h1, #inicio h3 {
+    .textos h1, #inicio h3 {
         color: #163505;
         font-family: "Nunito", sans-serif;
     }
 
-    #inicio h1{
+    .textos h1{
         font-size: 25px;
         font-weight: 800;
         margin-top: 15px;
     }
 
-    #inicio p {
+    .textos p {
         color: #031a01;
         font-family: "Nunito", sans-serif;
     }
@@ -322,30 +322,30 @@ header p {
   max-width: 100%;
 }
 
-#inicio {
+.textos {
     width: 80%;
     height: 400px;
     text-align: left;
     margin: 25px 0px 20px 5px;
   }
 
-  #inicio h1, #inicio h3, #inicio p {
+  .textos h1, #inicio h3, .textos p {
     margin: 10px 5px 10px 15px ;
     font-size: 25px;
   }
 
-    #inicio h1, #inicio h3 {
+    .textos h1, #inicio h3 {
         color: #163505;
         font-family: "Nunito", sans-serif;
     }
 
-    #inicio h1{
+    .textos h1{
         font-size: 30px;
         font-weight: 800;
         margin-top: 15px;
     }
 
-    #inicio p {
+    .textos p {
         color: #031a01;
         font-family: "Nunito", sans-serif;
     }
@@ -398,30 +398,86 @@ header p {
     margin-right: 25px;
 }
 
-#inicio {
+#linha_tempo {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 30px;
+  padding: 40px 20px;
+  scroll-snap-type: x mandatory;
+  background-color: #bbd4ae;
+  align-items: center;
+  justify-content: center;
+}
+
+#linha_tempo::before {
+  content: "";
+  display: none;
+}
+
+.etapa {
+  flex: 0 0 auto;
+  min-width: 200px;
+  max-width: 250px;
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+
+}
+
+.etapa img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #325022;
+  object-fit: cover;
+  background-color: #fff;
+}
+
+.etapa span {
+  margin-top: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  color: #163505;
+  font-weight: 600;
+  text-decoration: underline #325022;
+}
+
+.descricao {
+  margin-top: 8px;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  color: #325022;
+  max-width: 100%;
+}
+
+.textos {
     width: 80%;
     height: 400px;
     text-align: left;
     margin: 25px 0px 20px 5px;
   }
 
-  #inicio h1, #inicio h3, #inicio p {
+  .textos h1, #inicio h3, .textos p {
     margin: 10px 5px 10px 15px ;
     font-size: 25px;
   }
 
-    #inicio h1, #inicio h3 {
+    .textos h1, #inicio h3 {
         color: #163505;
         font-family: "Nunito", sans-serif;
     }
 
-    #inicio h1{
+    .textos h1{
         font-size: 30px;
         font-weight: 800;
         margin-top: 15px;
     }
 
-    #inicio p {
+    .textos p {
         color: #031a01;
         font-family: "Nunito", sans-serif;
     }
