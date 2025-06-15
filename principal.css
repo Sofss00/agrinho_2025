@@ -65,7 +65,7 @@ header p {
   gap: 30px;
   padding: 40px 20px;
   scroll-snap-type: x mandatory;
-  background-color: #bbd4ae;
+  background-color: #abe48d;
 }
 
 #linha_tempo::before {
