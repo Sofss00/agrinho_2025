@@ -41,6 +41,7 @@ header h1{
     font-size: 20px;
     color: #fff7e4;
     text-shadow: 4px 3px 4px #031a01;
+    text-decoration: none;
 }
 
 header p {
@@ -49,6 +50,7 @@ header p {
     font-weight: 500;
     color: #fff7e4;
     text-shadow: 3px 3px 4px #000000;
+    text-decoration: none;
 }
 
 .links {
@@ -170,6 +172,7 @@ header h1{
     font-size: 30px;
     color: #fff7e4;
     text-shadow: 4px 3px 4px #031a01;
+    text-decoration: none;
 }
 
 header p {
@@ -178,6 +181,7 @@ header p {
     font-weight: 500;
     color: #fff7e4;
     text-shadow: 3px 3px 4px #000000;
+    text-decoration: none;
 }
 
 .links{
@@ -242,6 +246,7 @@ header h1{
     font-size: 30px;
     color: #fff7e4;
     text-shadow: 4px 3px 4px #031a01;
+    text-decoration: none;
 }
 
 header p {
@@ -250,6 +255,7 @@ header p {
     font-weight: 500;
     color: #fff7e4;
     text-shadow: 3px 3px 4px #000000;
+    text-decoration: none;
 }
 
 .links{
@@ -268,6 +274,8 @@ header p {
   padding: 40px 20px;
   scroll-snap-type: x mandatory;
   background-color: #bbd4ae;
+  align-items: center;
+  justify-content: center;
 }
 
 #linha_tempo::before {
@@ -370,6 +378,7 @@ header h1{
     font-size: 30px;
     color: #fff7e4;
     text-shadow: 4px 3px 4px #031a01;
+    text-decoration: none;
 }
 
 header p {
@@ -378,6 +387,7 @@ header p {
     font-weight: 500;
     color: #fff7e4;
     text-shadow: 3px 3px 4px #000000;
+    text-decoration: none;
 }
 
 .links{
