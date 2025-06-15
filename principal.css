@@ -54,6 +54,525 @@ header p {
   color: #fff7e4;
   text-shadow: 3px 3px 4px #000000;
 }
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #4d8130;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #325022;
+  display: flex;
+}
+
+#titulo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+#link_titulo {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  padding: 10px;
+}
+
+header h1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  color: #fff7e4;
+  text-shadow: 4px 3px 4px #031a01;
+  text-decoration: none;
+}
+
+header p {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff7e4;
+  text-shadow: 3px 3px 4px #000000;
+}
+
+#link_voltar {
+      text-decoration: none;
+}
+
+.links {
+  font-size: 13px;
+  color: #fff7e4;
+  text-decoration: underline #fff7e4;
+  padding: 3px;
+}
+
+/* LINHA DO TEMPO */
+#linha_tempo {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 30px;
+  padding: 40px 20px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+#linha_tempo::before {
+  content: "";
+  display: none;
+}
+
+.etapa {
+  flex: 0 0 auto;
+  min-width: 200px;
+  max-width: 250px;
+  background-color: #bbd4ae;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px #000000;
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+}
+
+.etapa img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid #325022;
+  object-fit: cover;
+  background-color: #fff;
+}
+
+.etapa span {
+  margin-top: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: #163505;
+  font-weight: 600;
+}
+
+.descricao {
+  margin-top: 8px;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  color: #325022;
+  max-width: 100%;
+  text-decoration: none;
+}
+
+#etapas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* INÍCIO */
+#inicio {
+  width: 95%;
+  text-align: justify;
+  margin: 25px 0 20px 0;
+  background-color: #bbd4ae;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px;
+}
+
+#inicio h1,
+#inicio h3,
+#inicio p {
+  margin: 10px 5px 10px 15px;
+  font-size: 20px;
+}
+
+#inicio h1,
+#inicio h3,
+#curiosidade h3 {
+  color: #163505;
+  font-family: "Nunito", sans-serif;
+}
+
+#inicio h1 {
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 15px;
+}
+
+#inicio p {
+  color: #031a01;
+  font-family: "Nunito", sans-serif;
+}
+
+#plantio,
+#colheita,
+#transporte,
+#feira,
+#prato,
+#curiosidade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  text-align: justify;
+  margin: 25px 0 20px 0;
+  background-color: #bbd4ae;
+  border-radius: 25px;
+  box-shadow: 10px 10px 10px;
+  padding: 20px;
+  border: none;
+}
+
+#plantio h1,
+#plantio p,
+#colheita h1,
+#colheita p,
+#transporte h1,
+#transporte p,
+#feira h1,
+#feira p,
+#prato h1,
+#prato p,
+#curiosidade h1,
+#curiosidade p {
+  font-family: "Nunito", sans-serif;
+  margin: 10px 5px 10px 15px;
+  font-size: 20px;
+}
+
+#plantio h1,
+#colheita h1,
+#transporte h1,
+#feira h1,
+#prato h1,
+#curiosidade h1 {
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 15px;
+  color: #163505;
+}
+
+#plantio p,
+#colheita p,
+#transporte p,
+#feira p,
+#prato p,
+#curiosidade p {
+  color: #031a01;
+}
+
+.img_etapa {
+  width: 90%;
+  max-width: 350px;
+  height: auto;
+  border-radius: 25px;
+}
+
+.botao_inicio {
+  width: 120px;
+  height: 50px;
+  background-color: #163505;
+  box-shadow: 5px 5px 10px #000000;
+  border-radius: 40px;
+  color: #fff7e4;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #325022;
+    display: flex;
+}
+
+#esquerda_footer{
+    width: 60%;
+    height: 90%;
+    text-align: justify;
+    color: #fff7e4;
+    font-size: 11px;
+    font-family: "Nunito", sans-serif;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#direita_footer{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    color: #fff7e4;
+    font-size: 10px;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+}
+
+#direita_footer a {
+    color: #fff7e4;
+    font-size: 12px;
+    font-family: "Nunito", sans-serif;
+    text-align: left;
+}
+
+/* MEDIA QUERIES */
+
+/* TABLET */
+@media (min-width: 769px) {
+  #titulo,
+  #link_titulo {
+    margin-left: 20px;
+  }
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header p {
+    font-size: 20px;
+  }
+
+  .links {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: underline;
+    margin: 0 15px;
+  }
+
+  #inicio {
+    height: 500px;
+  }
+
+  #plantio,
+  #colheita,
+  #transporte,
+  #feira,
+  #prato,
+  #curiosidade {
+    width: 100%;
+    margin: 25px 0 20px 0;
+    background-color: #bbd4ae;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px;
+  }
+
+  #plantio h1,
+  #plantio p,
+  #colheita h1,
+  #colheita p,
+  #transporte h1,
+  #transporte p,
+  #feira h1,
+  #feira p,
+  #prato h1,
+  #prato p,
+  #curiosidade h1,
+  #curiosidade p{
+    font-size: 20px;
+  }
+
+  #plantio h1,
+  #colheita h1,
+  #transporte h1,
+  #feira h1,
+  #prato h1,
+  #curiosidade {
+    font-size: 25px;
+  }
+
+  .img_etapa {
+    max-width: 500px;
+  }
+
+  #esquerda_footer{
+    width: 60%;
+    height: 90%;
+    text-align: justify;
+    color: #fff7e4;
+    font-size: 15px;
+    font-family: "Nunito", sans-serif;
+    margin: 15px 10px 15px 10px;
+}
+
+#direita_footer{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    color: #fff7e4;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    margin-top: 20px;
+}
+
+#direita_footer a {
+    color: #fff7e4;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    text-align: left;
+}
+
+}
+
+/* DESKTOP */
+@media (min-width: 1025px) {
+  #linha_tempo {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .etapa img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .etapa span {
+    font-size: 20px;
+    text-decoration: underline #325022;
+  }
+
+  .descricao {
+    font-size: 20px;
+  }
+
+  #inicio {
+    width: 90%;
+    height: 400px;
+    margin: 25px 0 20px 5px;
+  }
+
+  #inicio h1,
+  #inicio h3,
+  #inicio p {
+    font-size: 25px;
+  }
+
+  #inicio h1 {
+    font-size: 30px;
+  }
+
+  #plantio,
+  #colheita,
+  #transporte,
+  #feira,
+  #prato,
+  #curiosidade {
+    width: 90%;
+  }
+
+  #plantio h1,
+  #colheita h1,
+  #transporte h1,
+  #feira h1,
+  #prato h1,
+  #curiosidade h1 {
+    font-size: 30px;
+    font-weight: 850;
+  }
+
+  #curiosidade h3 {
+    font-size: 25px;
+  }
+
+  .img_etapa {
+    max-width: 800px;
+  }
+
+    #esquerda_footer{
+    width: 60%;
+    height: 90%;
+    text-align: justify;
+    color: #fff7e4;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    margin: 20px 18px 20px 18px;
+}
+
+}
+
+/* TELAS GRANDES */
+@media (min-width: 1281px) {
+  .links {
+    margin: 0 25px;
+  }
+
+  #inicio {
+    width: 90%;
+    height: 400px;
+    margin: 25px 0 20px 5px;
+    box-shadow: 10px 10px 5px;
+  }
+
+  #inicio h1,
+  #inicio h3,
+  #inicio p {
+    font-size: 25px;
+  }
+
+  #inicio h1 {
+    font-size: 30px;
+  }
+
+  #plantio,
+  #colheita,
+  #transporte,
+  #feira,
+  #prato,
+  #curiosidade {
+    width: 90%;
+    box-shadow: 10px 10px 5px;
+  }
+
+  #plantio h1,
+  #colheita h1,
+  #transporte h1,
+  #feira h1,
+  #prato h1,
+  #curiosidade h1 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  #curiosidade h3 {
+    font-size: 27;
+  }
+
+  .img_etapa {
+    max-width: 1000px;
+  }
+
+    #esquerda_footer{
+    width: 60%;
+    height: 90%;
+    text-align: justify;
+    color: #fff7e4;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    margin: 20px 18px 20px 18px;
+}
+
+}
 
 #link_voltar {
       text-decoration: none;
