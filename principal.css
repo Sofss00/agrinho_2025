@@ -285,6 +285,12 @@ header p {
     color: #031a01;
 }
 
+.img_etapa{
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 25px;
+}
 
 }
 
