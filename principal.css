@@ -264,7 +264,7 @@ header p {
     width: 80%;
     height: 400px;
     text-align: left;
-    margin: 25px 0px 20px 0px;
+    margin: 25px 0px 20px 5px;
   }
 
   #inicio h1, #inicio h3, #inicio p {
@@ -338,7 +338,7 @@ header p {
     width: 80%;
     height: 400px;
     text-align: left;
-    margin: 25px 0px 20px 0px;
+    margin: 25px 0px 20px 5px;
   }
 
   #inicio h1, #inicio h3, #inicio p {
