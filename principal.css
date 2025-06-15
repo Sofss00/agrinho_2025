@@ -207,7 +207,7 @@ header p {
     width: 120px;
     height: 50px;
     background-color: #163505;
-    box-shadow: 5px 5px 10px;
+    box-shadow: 5px 5px 10px #000000;
     border-radius: 40px;
     color: #fff7e4;
     font-family: "Nunito", sans-serif;
