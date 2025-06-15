@@ -126,6 +126,7 @@ header p {
 
   #inicio h1, #inicio h3, #inicio p {
     margin: 10px 5px 15px 15px ;
+    font-size: 20px;
   }
 
     #inicio h1, #inicio h3 {
