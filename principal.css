@@ -10,14 +10,14 @@
 /* BASE */
 body {
     margin: 0;
-    background-color: #0f1d08;
+    background-color: #325022;
 }
 
 /* HEADER */
 header {
     width: 100%;
     height: 100px;
-    background-color: #325022;
+    background-color: #0f1d08;
     display: flex;
 }
 
