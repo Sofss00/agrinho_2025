@@ -84,7 +84,7 @@ header p {
     max-width: 250px;
     background-color: #bbd4ae;
     border-radius: 25px;
-    box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 10px #000000;
     scroll-snap-align: center;
     display: flex;
     flex-direction: column;
@@ -134,7 +134,7 @@ header p {
     margin: 25px 0 20px 0;
     background-color: #bbd4ae;
     border-radius: 25px;
-    box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 10px;
 }
 
 #inicio h1,
@@ -167,7 +167,7 @@ header p {
     margin: 25px 0 20px 0;
     background-color: #bbd4ae;
     border-radius: 25px;
-    box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 10px;
 }
 
 #plantio h1, 
@@ -232,7 +232,7 @@ header p {
     margin: 25px 0 20px 0;
     background-color: #bbd4ae;
     border-radius: 25px;
-    box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 10px;
 }
 
 #plantio h1, 
@@ -291,7 +291,7 @@ header p {
         margin: 25px 0 20px 5px;
         background-color: #bbd4ae;
         border-radius: 25px;
-        box-shadow: 10px 10px 5px;
+        box-shadow: 10px 10px 10px;
     }
 
     #inicio h1,
@@ -310,7 +310,7 @@ header p {
     margin: 25px 0 20px 0;
     background-color: #bbd4ae;
     border-radius: 25px;
-    box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 10px;
 }
 
 #plantio h1, 
@@ -372,6 +372,9 @@ header p {
     width: 90%;
     text-align: justify;
     margin: 25px 0 20px 0;
+    background-color: #bbd4ae;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px;
 }
 
 #plantio h1, 
@@ -387,9 +390,6 @@ header p {
     font-family: "Nunito", sans-serif;
     margin: 10px 5px 10px 15px;
     font-size: 25px;
-    background-color: #bbd4ae;
-    border-radius: 25px;
-    box-shadow: 10px 10px 5px;
 }
 
 #plantio h1, #colheita h1, #transporte h1, #feira h1, #prato h1{
