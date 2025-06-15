@@ -131,7 +131,7 @@ header p {
     margin: 25px 0 20px 0;
     background-color: #bbd4ae;
     border-radius: 25px;
-    box-shadow: #000000;
+    box-shadow: 10px 10px 5px;
 }
 
 #inicio h1,
@@ -164,7 +164,7 @@ header p {
     margin: 25px 0 20px 0;
     background-color: #bbd4ae;
     border-radius: 25px;
-    box-shadow: #000000;
+    box-shadow: 10px 10px 5px;
 }
 
 #plantio h1, 
@@ -229,7 +229,7 @@ header p {
     margin: 25px 0 20px 0;
     background-color: #bbd4ae;
     border-radius: 25px;
-    box-shadow: #000000;
+    box-shadow: 10px 10px 5px;
 }
 
 #plantio h1, 
@@ -288,7 +288,7 @@ header p {
         margin: 25px 0 20px 5px;
         background-color: #bbd4ae;
         border-radius: 25px;
-        box-shadow: #000000;
+        box-shadow: 10px 10px 5px;
     }
 
     #inicio h1,
@@ -307,7 +307,7 @@ header p {
     margin: 25px 0 20px 0;
     background-color: #bbd4ae;
     border-radius: 25px;
-    box-shadow: #000000;
+    box-shadow: 10px 10px 5px;
 }
 
 #plantio h1, 
@@ -352,7 +352,7 @@ header p {
         margin: 25px 0 20px 5px;
         background-color: #bbd4ae;
         border-radius: 25px;
-        box-shadow: #000000;
+        box-shadow: 10px 10px 5px;
     }
 
     #inicio h1,
@@ -386,7 +386,7 @@ header p {
     font-size: 25px;
     background-color: #bbd4ae;
     border-radius: 25px;
-    box-shadow: #000000;
+    box-shadow: 10px 10px 5px;
 }
 
 #plantio h1, #colheita h1, #transporte h1, #feira h1, #prato h1{
