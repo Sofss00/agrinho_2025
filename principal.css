@@ -52,39 +52,60 @@ header p {
 }
 
 #linha_tempo {
-    align-items: flex-start;
-    padding: 20px;
-  }
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 30px;
+  padding: 40px 20px;
+  scroll-snap-type: x mandatory;
+  background-color: #bbd4ae;
+}
 
-  #linha_tempo::before {
-    top: 0;
-    left: 20px;
-    bottom: 0;
-    width: 3px;
-    height: 100%;
-  }
+#linha_tempo::before {
+  content: "";
+  display: none; /* não precisa da linha central aqui */
+}
 
-  .etapa {
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 40px;
-    gap: 20px;
-  }
+.etapa {
+  flex: 0 0 auto;
+  min-width: 200px;
+  max-width: 250px;
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+  text-align: center;
+}
 
-  .etapa a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-  }
+.etapa img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #325022;
+  object-fit: cover;
+  background-color: #fff;
+}
 
-  .descricao {
-    margin-top: 10px;
-    margin-left: 10px;
-    font-family: "Nunito", sans-serif;
-    color: #325022;
-    max-width: 90%;
-  }
+.etapa span {
+  margin-top: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: #163505;
+  font-weight: 600;
+}
+
+.descricao {
+  margin-top: 8px;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  color: #325022;
+  max-width: 100%;
+}
+
 
   .etapa img {
     width: 60px;
