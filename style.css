@@ -276,37 +276,19 @@ display: flex;
   #imagens_direita img, #imagens_esquerda img {
     border-radius: 20px;
   }
-  
-  #fazendeiro_img {
-  width: 250px;
-  height: 300px;
+
+  #fazendeiro_img,
+  #cesta_img,
+  #caminhao_img,
+  #prato_img,
+  #feira_img,
+  #familia_img {
+  width: 80%;
+  max-width: 230px;
+  height: auto;
+  border-radius: 20px;
 }
 
-#cesta_img {
-  width: 250px;
-  height: 250px;
-}
-
-#caminhao_img {
-  width: 240px;
-  height: 290px;
-}
-
-#prato_img {
-  width: 270px;
-  height: 270px;
-}
-
-#feira_img {
-  width: 270px;
-  height: 300px;
-}
-
-#familia_img {
-  width: 270px;
-  height: 260px;
-}
-  
   #botao_conheca {
     width: 155px;
     height: 55px;
