@@ -283,7 +283,7 @@ header p {
     }
 
     #plantio, #colheita, #transporte, #feira, #prato {
-    width: 100%;
+    width: 80%;
     text-align: left;
     margin: 25px 0 20px 0;
 }
@@ -341,7 +341,7 @@ header p {
     }
 
         #plantio, #colheita, #transporte, #feira, #prato {
-    width: 100%;
+    width: 80%;
     text-align: left;
     margin: 25px 0 20px 0;
 }
