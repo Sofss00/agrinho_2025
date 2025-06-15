@@ -54,6 +54,7 @@ header p {
 .links {
   font-size: 13px;
   color: #fff7e4;
+  text-decoration: underline #fff7e4;
 }
 
 #linha_tempo {
