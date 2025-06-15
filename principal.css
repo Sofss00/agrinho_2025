@@ -196,6 +196,22 @@ header p {
     color: #031a01;
 }
 
+.img_etapa{
+    width: 90%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.botao_inicio{
+    width: 50px;
+    height: 35px;
+    background-color: #163505;
+    box-shadow: 5px 5px 10px;
+    color: #fff7e4;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+}
 
 /* MEDIA QUERIES */
 
