@@ -52,7 +52,6 @@ header p {
 }
 
 #linha_tempo {
-    flex-direction: column;
     align-items: flex-start;
     padding: 20px;
   }
