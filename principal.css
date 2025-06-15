@@ -120,7 +120,7 @@ header p {
 /* INÍCIO */
 #inicio {
     width: 100%;
-    text-align: left;
+    text-align: justify;
     margin: 25px 0 20px 0;
 }
 
@@ -150,7 +150,7 @@ header p {
 
 #plantio, #colheita, #transporte, #feira, #prato {
     width: 100%;
-    text-align: left;
+    text-align: justify;
     margin: 25px 0 20px 0;
 }
 
@@ -212,7 +212,7 @@ header p {
 
     #plantio, #colheita, #transporte, #feira, #prato {
     width: 100%;
-    text-align: left;
+    text-align: justify;
     margin: 25px 0 20px 0;
 }
 
@@ -284,7 +284,7 @@ header p {
 
     #plantio, #colheita, #transporte, #feira, #prato {
     width: 80%;
-    text-align: left;
+    text-align: justify;
     margin: 25px 0 20px 0;
 }
 
@@ -342,7 +342,7 @@ header p {
 
         #plantio, #colheita, #transporte, #feira, #prato {
     width: 80%;
-    text-align: left;
+    text-align: justify;
     margin: 25px 0 20px 0;
 }
 
