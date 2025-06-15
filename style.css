@@ -65,34 +65,16 @@ background-color: aquamarine;
   border-radius: 20px;
 }
 
-#fazendeiro_img {
-  width: 160px;
-  height: 200px;
-}
-
-#cesta_img {
-  width: 160px;
-  height: 160px;
-}
-
-#caminhao_img {
-  width: 160px;
-  height: 200px;
-}
-
-#prato_img {
-  width: 180px;
-  height: 180px;
-}
-
-#feira_img {
-  width: 180px;
-  height: 210px;
-}
-
-#familia_img {
-  width: 170px;
-  height: 180px;
+  #fazendeiro_img,
+  #cesta_img,
+  #caminhao_img,
+  #prato_img,
+  #feira_img,
+  #familia_img {
+  width: 90%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 20px;
 }
 
 #botao_conheca {
@@ -163,34 +145,16 @@ display: flex;
   border-radius: 20px;
 }
 
-#fazendeiro_img {
-  width: 250px;
-  height: 300px;
-}
-
-#cesta_img {
-  width: 250px;
-  height: 250px;
-}
-
-#caminhao_img {
-  width: 240px;
-  height: 290px;
-}
-
-#prato_img {
-  width: 270px;
-  height: 270px;
-}
-
-#feira_img {
-  width: 270px;
-  height: 300px;
-}
-
-#familia_img {
-  width: 270px;
-  height: 260px;
+  #fazendeiro_img,
+  #cesta_img,
+  #caminhao_img,
+  #prato_img,
+  #feira_img,
+  #familia_img {
+  width: 90%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 20px;
 }
 
 #botao_conheca {
@@ -283,8 +247,8 @@ display: flex;
   #prato_img,
   #feira_img,
   #familia_img {
-  width: 80%;
-  max-width: 230px;
+  width: 90%;
+  max-width: 250px;
   height: auto;
   border-radius: 20px;
 }
@@ -374,35 +338,17 @@ display: flex;
     border-radius: 20px;
   }
   
-  #fazendeiro_img {
-    width: 230px;
-    height: 280px;
-  }
-  
-  #cesta_img {
-    width: 230px;
-    height: 180px;
-  }
-  
-  #caminhao_img {
-    width: 230px;
-    height: 180px;
-  }
-  
-  #prato_img {
-    width: 230px;
-    height: 180px;
-  }
-  
-  #feira_img {
-    width: 230px;
-    height: 180px;
-  }
-  
+    #fazendeiro_img,
+  #cesta_img,
+  #caminhao_img,
+  #prato_img,
+  #feira_img,
   #familia_img {
-    width: 230px;
-    height: 180px;
-  }
+  width: 90%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 20px;
+}
   
   #botao_conheca {
     width: 155px;
