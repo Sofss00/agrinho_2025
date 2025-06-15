@@ -138,6 +138,7 @@ header p {
     #inicio h1{
         font-size: 25px;
         font-weight: 500;
+        margin-top: 15px;
     }
 
     #inicio p {
