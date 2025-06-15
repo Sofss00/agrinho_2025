@@ -10,7 +10,7 @@
 /* BASE */
 body {
     margin: 0;
-    background-color: #bbd4ae;
+    background-color: #325022;
 }
 
 /* HEADER */
@@ -130,6 +130,9 @@ header p {
     width: 95%;
     text-align: justify;
     margin: 25px 0 20px 0;
+    background-color: #bbd4ae;
+    border-radius: 25px;
+    box-shadow: #000000;
 }
 
 #inicio h1,
@@ -160,6 +163,9 @@ header p {
     width: 95%;
     text-align: justify;
     margin: 25px 0 20px 0;
+    background-color: #bbd4ae;
+    border-radius: 25px;
+    box-shadow: #000000;
 }
 
 #plantio h1, 
@@ -222,6 +228,9 @@ header p {
     width: 100%;
     text-align: justify;
     margin: 25px 0 20px 0;
+    background-color: #bbd4ae;
+    border-radius: 25px;
+    box-shadow: #000000;
 }
 
 #plantio h1, 
@@ -278,6 +287,9 @@ header p {
         width: 90%;
         height: 400px;
         margin: 25px 0 20px 5px;
+        background-color: #bbd4ae;
+        border-radius: 25px;
+        box-shadow: #000000;
     }
 
     #inicio h1,
@@ -294,6 +306,9 @@ header p {
     width: 90%;
     text-align: justify;
     margin: 25px 0 20px 0;
+    background-color: #bbd4ae;
+    border-radius: 25px;
+    box-shadow: #000000;
 }
 
 #plantio h1, 
@@ -336,6 +351,9 @@ header p {
         width: 90%;
         height: 400px;
         margin: 25px 0 20px 5px;
+        background-color: #bbd4ae;
+        border-radius: 25px;
+        box-shadow: #000000;
     }
 
     #inicio h1,
@@ -367,6 +385,9 @@ header p {
     font-family: "Nunito", sans-serif;
     margin: 10px 5px 10px 15px;
     font-size: 25px;
+    background-color: #bbd4ae;
+    border-radius: 25px;
+    box-shadow: #000000;
 }
 
 #plantio h1, #colheita h1, #transporte h1, #feira h1, #prato h1{
