@@ -3,12 +3,21 @@
 
  # Estrutura do Projeto
  
- Tecnologias utilizadas:
- HTML: estrutura básica da página.
- CSS: estilização dos componentes da página.
- Fontes: fontes estilizadas para melhorar a visibilidade da página.
- Arquivos: index.html: estrutura da página inicial, style.css: define o estilo da página inicial, principal.html: estrutura da página principal, principal.css: estiliza a página inicial,
-central.html: estrutura da página de informações/central do site, central.css: estiliza a página de informações/central, contato.html: estrutura da página de contato, contato.css: estiliza a página de contato, img: pasta com as imagens do site.
+ #### Tecnologias utilizadas:
+ * HTML: estrutura básica da página.
+ * CSS: estilização dos componentes da página.
+ * Fontes: fontes estilizadas para melhorar a visibilidade da página.
+
+ #### Arquivos:
+ * index.html: estrutura da página inicial,
+ * style.css: define o estilo da página inicial,
+ * principal.html: estrutura da página principal,
+ * principal.css: estiliza a página inicial,
+ * central.html: estrutura da página de informações/central do site,
+ * central.css: estiliza a página de informações/central,
+ * contato.html: estrutura da página de contato,
+ * contato.css: estiliza a página de contato,
+ * img: pasta com as imagens do site.
 
 # Descrição das Seções
 #### Página inicial:
