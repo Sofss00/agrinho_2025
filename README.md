@@ -62,5 +62,9 @@
  * Título: "Entre em Contato";
  * Formulário para envio de mensagens.
 
+#### Crédito das imagens:
+* Pexels: https://www.pexels.com/pt-br/
+* Feepik: https://www.freepik.com/sign-up?client_id=freepik&lang=pt
+
 #### Licença
 Este projeto está licenciado sob a MIT License.   
